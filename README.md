@@ -11,16 +11,10 @@ Currently supports:
 Raise an issue if you would like any extra commands implemented. Alternatively pull requests are more than welcome and adding new commands is trivial. [See Below.](#adding-new-commands)
 
 # Installation
-## PyPi
-Install [this package](https://pypi.org/project/jvc-projector-remote/) from PyPi
-with:
-~~~
-pip install jvc_projector_remote
-~~~
 ## From this repo
 Install from this repo with:
 ~~~
-pip install -e git+https://github.com/bezmi/jvc_projector.git#egg=jvc-projector-remote
+pip install -e git+https://github.com/sledmonkey/jvc_projector#egg=jvc-projector-remote
 ~~~
 # Usage
 For usage with homeassistant, [see here](https://github.com/bezmi/hass_custom_components).
@@ -63,6 +57,7 @@ projector and I will add it to the list below.
 
 ## Confirmed Models
 * DLA-X5900
+* NX5
 
 # Bugs
 The main issue one might face is receiving ConnectionRefusedError when making a
