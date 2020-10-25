@@ -7,6 +7,7 @@ Currently supports:
 * Lens Memory
 * Input (HDMI only)
 * Power Status (Standby, Cooling, Emergency, Lamp On, Reserved)
+* Low Latency Mode
 
 Raise an issue if you would like any extra commands implemented. Alternatively pull requests are more than welcome and adding new commands is trivial. [See Below.](#adding-new-commands)
 
