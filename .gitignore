@@ -1,3 +1,4 @@
 dist/
 build/
 jvc_projector_remote.egg-info/
+__pycache__
