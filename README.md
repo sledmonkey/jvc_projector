@@ -1,6 +1,6 @@
 # JVC Projector Remote
 
-This is a simple package to control JVC Projectors over IP. Created to be used with my [Homeassistant](https://www.home-assistant.io/) custom component: [bezmi/hass_custom_components](https://github.com/bezmi/hass_custom_components/tree/master/custom_components/jvcprojector). Works fine as a standalone module.
+This is a simple package to control JVC Projectors over IP. Created to be used with Shahzeb Imran's [Homeassistant](https://www.home-assistant.io/) custom component: [bezmi/hass_custom_components](https://github.com/bezmi/hass_custom_components/tree/master/custom_components/jvcprojector). Works fine as a standalone module.
 
 Currently supports:
 * Power on/off

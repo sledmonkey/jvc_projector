@@ -10,7 +10,7 @@ setuptools.setup(
     description="A small package to control jvc projectors over IP",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bezmi/jvc_projector",
+    url="https://github.com/sledmonkey/jvc_projector",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3.7",
