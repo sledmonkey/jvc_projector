@@ -36,7 +36,9 @@ class Commands(Enum):
     pm_hlg = b"\x21\x89\x01\x50\x4D\x50\x4D\x31\x34\x0A"
 
     # additional commands
-    # PMLL P = \x50  M= \x4D L = \x4C
+
+    # low latency on/off
+    # PMLL P = \x50  M= \x4D L = \x4C (On|Off = \x31 \x30)
     pm_low_latency_on = b"\x21\x89\x01\x50\x4D\x4C\x4C\x31\x0A"
     pm_low_latency_off = b"\x21\x89\x01\x50\x4D\x4C\x4C\x30\x0A"
 
