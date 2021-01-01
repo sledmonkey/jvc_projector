@@ -40,6 +40,14 @@ class Commands(Enum):
     pm_low_latency_on = b"\x21\x89\x01\x50\x4D\x4C\x4C\x31\x0A"
     pm_low_latency_off = b"\x21\x89\x01\x50\x4D\x4C\x4C\x30\x0A"
 
+    # hdr settings
+
+    # hdr processing
+    # PMHP P = \x50  M= \x4D H = \x48 P = \x50 (Static|Frame by Frame|Scene by Scene = \x31 \x32 \x33)
+    pm_hdr_processing_static = b"\x21\x89\x01\x50\x4D\x48\x50\x31\x0A"
+    pm_hdr_processing_frame = b"\x21\x89\x01\x50\x4D\x48\x50\x32\x0A"
+    pm_hdr_processing_scene = b"\x21\x89\x01\x50\x4D\x48\x50\x33\x0A"
+
 class PowerStates(Enum):
     standby   = b"\x40\x89\x01\x50\x57\x30\x0A"
     cooling   = b"\x40\x89\x01\x50\x57\x32\x0A"
